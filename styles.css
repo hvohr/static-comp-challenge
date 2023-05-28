@@ -106,15 +106,17 @@ a {
 }
 
 /* main page */
+#user-section, h1 {
+  background-color:rgb(228, 223, 223);
+}
 
 #user-section {
-  /* display: flex; */
   overflow: auto
 }
 
 h1 {
   padding: 20px;
-  margin: 20px
+  margin: 0px;
 }
 
 .bottom-info {
@@ -124,7 +126,17 @@ h1 {
 .user-box {
   float:left; 
   width: 200px;
-  margin: 20px
+  margin: 15px
+}
+
+.view-label{
+  display: flex;
+  flex-direction: column;
+}
+
+p, h2 {
+  margin: 0px;
+  padding: 0px;
 }
 
 #box-1 {
@@ -168,6 +180,10 @@ h1 {
 #box-7,
 #box-8 {
   background-size: 200px;
+  height: 120px;
+  display: flex;
+  
   background-repeat: no-repeat;
+  color: white;
 }
 
