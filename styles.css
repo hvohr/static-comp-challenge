@@ -39,33 +39,6 @@ ul {
   padding-left: 16px
 }
 
-.dropdown-content {
-  display:none;
-  float: right;
-  position:absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 .dropdown, .navigation-links {
   width: 50%;
 }
@@ -102,7 +75,7 @@ a {
   border-radius: 10%;
   padding: 5px;
   margin: 5px;
-  width: 5%
+  width: 9%
 }
 
 /* main page */
@@ -112,7 +85,7 @@ a {
 
 #user-section {
   overflow: auto;
-
+  padding-left: 9px;
 }
 
 h1 {
@@ -127,8 +100,10 @@ h1 {
 
 .user-box {
   float:left; 
-  width: 20%;
-  margin: 15px
+  width: 23%;
+  margin: 5px;
+  border-color:rgb(246, 240, 240);
+  border-style: inset;
 }
 
 .top-photo {
@@ -138,9 +113,15 @@ h1 {
   justify-content: space-between
 }
 
-.view-label{
+.view-label {
   display: flex;
   flex-direction: column;
+  margin-right: 5px;
+}
+
+.view-amount {
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 p, h2 {
@@ -157,13 +138,12 @@ h2 {
 .attachment-number {
   color:darkslateblue;
   font-size: 30px;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .playlist-name {
   margin-bottom: 10px;
   padding-left: 10px
-
 }
 
 h3 {
