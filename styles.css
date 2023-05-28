@@ -1,0 +1,218 @@
+body {
+  height: 100vh;
+  overflow: auto;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* nav page */
+
+nav {
+  overflow: hidden;
+  background-color:darkgray;
+  display: flex;
+  align-items: center;
+}
+
+.title-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-style:italic
+}
+
+.admin-username, .title-logo {
+  display:flex;
+  justify-content:flex-end;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-top: 10px
+}
+
+ul {
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content:space-around;
+  padding-left: 16px
+}
+
+.dropdown, .navigation-links {
+  width: 50%;
+}
+
+.dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color:darkslateblue;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.share-icon, 
+.person-icon, 
+.list-icon,
+.admin-icon {
+  width: 5%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.rocket-icon {
+  width: 8%;
+}
+
+.arrow-icon {
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px;
+  margin: 5px;
+  width: 9%
+}
+
+/* main page */
+#user-section, h1 {
+  background-color:rgb(228, 223, 223);
+}
+
+#user-section {
+  overflow: auto;
+  padding-left: 9px;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0px;
+}
+
+.bottom-info {
+  background-color: rgb(255, 255, 255);
+  width: 100%
+}
+
+.user-box {
+  float:left; 
+  width: 23%;
+  margin: 5px;
+  border-color:rgb(246, 240, 240);
+  border-style: inset;
+}
+
+.top-photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: space-between
+}
+
+.view-label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.view-amount {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+p, h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size:16px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+.attachment-number {
+  color:darkslateblue;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.playlist-name {
+  margin-bottom: 10px;
+  padding-left: 10px
+}
+
+h3 {
+  font-size: 13px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 1px
+}
+
+.user-date {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size:13px;
+  color:rgb(205, 203, 203);
+}
+
+.user-link {
+  color: black;
+  background: rgb(205, 203, 203);
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left:10px;
+  padding: 10px;
+
+}
+
+#box-1 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-gabriela-palai-397096.jpg);
+}
+
+#box-2 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-gustavo-queiroz-1662540.jpg)
+}
+
+#box-3 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-johannes-plenio-1423600.jpg)
+}
+
+#box-4 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-mateusz-sałaciak-4383999.jpg)
+}
+
+#box-5 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-taryn-elliott-4099305.jpg)
+}
+
+#box-6 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-tobias-aeppli-1125265.jpg)
+}
+
+#box-7 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-zhang-kaiyv-1083515.jpg)
+}
+
+#box-8 {
+  background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pic1.jpg)
+}
+
+#box-1,
+#box-2,
+#box-3,
+#box-4,
+#box-5,
+#box-6,
+#box-7,
+#box-8 {
+  background-size: 200%;
+  height: 120px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
