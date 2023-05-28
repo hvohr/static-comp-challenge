@@ -117,6 +117,14 @@ h1 {
   padding: 20px
 }
 
+.user-box {
+  /* display: flex;
+  justify-content:center; */
+  float:left; 
+  display:inline;
+  width: 25%
+}
+
 #box-1 {
   background-image:url(/Users/hollisvohr/turing_work/mod_2/static-comp-challenge/images/pexels-gabriela-palai-397096.jpg);
 }
