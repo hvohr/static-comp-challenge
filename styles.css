@@ -131,6 +131,13 @@ h1 {
   margin: 15px
 }
 
+.top-photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: space-between
+}
+
 .view-label{
   display: flex;
   flex-direction: column;
@@ -151,8 +158,6 @@ h2 {
   color:darkslateblue;
   font-size: 30px;
   padding-left: 10px
-
-
 }
 
 .playlist-name {
