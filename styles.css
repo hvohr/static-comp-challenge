@@ -1,6 +1,6 @@
-html {
-  width: 100%;
-  height: 100%;
+body {
+  height: 100vh;
+  overflow: auto;
 }
 
 * {
@@ -13,7 +13,7 @@ nav {
   overflow: hidden;
   background-color:darkgray;
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .title-logo {
@@ -99,30 +99,32 @@ a {
 
 .arrow-icon {
   background-color: white;
-  overflow:hidden;
   border-radius: 10%;
   padding: 5px;
   margin: 5px;
-  width: 3%
+  width: 5%
 }
 
 /* main page */
 
-main {
-  background-color:#fcfaff;
+#user-section {
+  /* display: flex; */
+  overflow: auto
 }
 
 h1 {
-  margin: 0px;
-  padding: 20px
+  padding: 20px;
+  margin: 20px
+}
+
+.bottom-info {
+  background-color: rgb(255, 255, 255)
 }
 
 .user-box {
-  /* display: flex;
-  justify-content:center; */
   float:left; 
-  display:inline;
-  width: 25%
+  width: 200px;
+  margin: 20px
 }
 
 #box-1 {
@@ -168,3 +170,4 @@ h1 {
   background-size: 200px;
   background-repeat: no-repeat;
 }
+
